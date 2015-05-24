@@ -22,7 +22,7 @@ if (!function_exists('add_action'))  exit;
 // CUSTOMIZE:
 // simply edit the urls and image locations below by going to your WP site "dashboard"
 // and find the left-side "Plugins" and hit the "Editor" link below it.
-// Find the "Select plugin to edit:" in upper right, select "slide-responsively", hite [Select] button.
+// Find the "Select plugin to edit:" in upper right, select "slide-responsively", hit [Select] button.
 // You can then update the images and links to what you like.
 // Enjoy!
   
