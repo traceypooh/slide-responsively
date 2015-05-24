@@ -25,9 +25,10 @@ if (!function_exists('add_action'))  exit;
 // Find the "Select plugin to edit:" in upper right, select "slide-responsively", hit [Select] button.
 // You can then update the images and links to what you like.
 // Enjoy!
-  
 
-add_filter('template_include', function($str){
+
+function slide_responsively_template_include($str)
+{
   // insert std WP header, then insert "slide-responsively" image/nav header!    
   get_header();
   
@@ -55,4 +56,7 @@ add_filter('template_include', function($str){
 
   // allow WP to do its normal thing..
   return $str;
-}, 9); // default to one less than standard plugin priority (10)
+}
+
+  
+add_filter('template_include', 'slide_responsively_template_include', 9); // default to one less than standard plugin priority (10)
