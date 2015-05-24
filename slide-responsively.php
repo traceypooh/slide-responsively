@@ -37,13 +37,13 @@ add_filter('template_include', function($str){
   </div>
   <div class="slide-responsively">
     <ul>
-      <li><a href="/about/"     style="background-image:url(http://poohBot.com/images/nav/about.jpg      ">About</a></li>
+      <li><a href="/about/"     style="background-image:url(http://poohBot.com/images/nav/about.jpg)     ">About</a></li>
       <li><a href="/biking/"    style="background-image:url(http://poohBot.com/images/nav/biking.jpg)    ">biking</a></li>
-      <li><a href="/favorites/" style="background-image:url(http://poohBot.com/images/nav/favorites.jpg)">favorites</a></li>
-      <li><a href="/quotes/"    style="background-image:url(http://poohBot.com/images/nav/quotes.jpg)   ">quotes</a></li>
+      <li><a href="/favorites/" style="background-image:url(http://poohBot.com/images/nav/favorites.jpg) ">favorites</a></li>
+      <li><a href="/quotes/"    style="background-image:url(http://poohBot.com/images/nav/quotes.jpg)    ">quotes</a></li>
       <li><a href="/lapses/"    style="background-image:url(http://poohBot.com/images/nav/timelapses.jpg)">Tracey sees through time</a></li>
       <li><a href="/video/"     style="background-image:url(http://poohBot.com/images/nav/video.jpg)     ">Video</a></li>
-      <li><a href="/photos/"    style="background-image:url(http://poohBot.com/images/nave/photos.jpg)   ">Photos</a></li>
+      <li><a href="/photos/"    style="background-image:url(http://poohBot.com/images/nav/photos.jpg)    ">Photos</a></li>
     </ul>
   </div>
   <?php
