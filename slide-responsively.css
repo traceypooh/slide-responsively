@@ -1,0 +1,63 @@
+/*****
+Image Menu
+v 2.2
+
+modified to be responsive @tracey_pooh 2015
+https://github.com/traceypooh/slide-responsively
+****/
+
+.slide-responsively {
+  overflow: hidden;
+  border-style: none;
+  padding: 8px 0 20px 0px;
+  margin: 0;
+  max-width:1000px;
+}
+
+.slide-responsively ul {
+  list-style: none;
+  display: block;
+  height: 200px;
+  padding: 0;
+  margin: 0;
+}
+
+.slide-responsively ul li {
+  float: left;
+  /* use CSS transitions (not JS/mootools), spluh! ;-) */
+  -webkit-transition: width 0.5s ease;
+     -moz-transition: width 0.5s ease;
+       -o-transition: width 0.5s ease;
+          transition: width 0.5s ease;
+}
+
+.slide-responsively ul li a {
+  text-indent: -1000px;
+  background:#FFFFFF none repeat scroll 0%;
+  border-right: 2px solid #fff;
+  display:block;
+  overflow:hidden;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  /* better nonrepeated noninline CSS */
+  background-position: 0% 50%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+}
+
+.slide-responsively ul li:last-child a {
+  border-right-style: none;
+}
+
+/* THE RESPONSIVE WIDTHS */
+
+.slide-responsively ul li       { width:14%;   } /* 100% / 7  (using 7 images) */
+.slide-responsively ul li.in    { width:31%;   } /* about 1/3 total width */
+.slide-responsively ul li.out   { width:11.5%; } /* (100% - 31%) / 6 */
+
+@media (max-width:700px) { /* for quite narrow viewports, eg: phones */
+  .slide-responsively ul li.in  { width:50%;   } /* about 1/2 total width */
+  .slide-responsively ul li.out { width:8.3%;  } /* (100% - 51%) / 6 */
+}
