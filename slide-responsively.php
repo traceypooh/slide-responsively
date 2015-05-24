@@ -3,7 +3,7 @@
 Plugin Name: slide-responsively
 Plugin URI: https://github.com/traceypooh/slide-responsively
 Description: slide-responsively plugin.  Inspired by the "sliding-door" theme ( https://wordpress.org/themes/sliding-door/ ) but this is instead a *<a href="http://en.wikipedia.org/wiki/Responsive_web_design">responsive</a>* version, and a *plugin* instead, that allows you to freely use another theme entirely ( eg: the nicely responsive "<a href="https://wordpress.org/themes/twentyfifteen/">twenty fifteen</a>" theme from the fine folks at WordPress )
-Version: 2015
+Version: 2015.05.23
 Author: Tracey Pooh @tracey_pooh
 Author URI: http://poohBot.com
 License: GPL2
