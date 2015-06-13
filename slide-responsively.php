@@ -60,3 +60,8 @@ function slide_responsively_template_include($str)
 
   
 add_filter('template_include', 'slide_responsively_template_include', 9); // default to one less than standard plugin priority (10)
+
+
+// helpful for understanding themes and plugins:
+//   https://yoast.com/wordpress-theme-anatomy/
+//   https://www.packtpub.com/books/content/anatomy-wordpress-plugin
