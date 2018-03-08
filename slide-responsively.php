@@ -29,22 +29,22 @@ if (!function_exists('add_action'))  exit;
 
 function slide_responsively_template_include($str)
 {
-  // insert std WP header, then insert "slide-responsively" image/nav header!    
+  // insert std WP header, then insert "slide-responsively" image/nav header!
   get_header();
-  
+
   ?>
   <div>
-    <a href="/"><img src="http://poohBot.com/images/nav/poohbot-header-by.jpg"></a>
+    <a href="/"><img src="//poohBot.com/images/nav/poohbot-header-by.jpg"></a>
   </div>
   <div class="slide-responsively">
     <ul>
-      <li><a href="/about/"     style="background-image:url(http://poohBot.com/images/nav/about.jpg)     ">About</a></li>
-      <li><a href="/biking/"    style="background-image:url(http://poohBot.com/images/nav/biking.jpg)    ">biking</a></li>
-      <li><a href="/favorites/" style="background-image:url(http://poohBot.com/images/nav/favorites.jpg) ">favorites</a></li>
-      <li><a href="/quotes/"    style="background-image:url(http://poohBot.com/images/nav/quotes.jpg)    ">quotes</a></li>
-      <li><a href="/lapses/"    style="background-image:url(http://poohBot.com/images/nav/timelapses.jpg)">Tracey sees through time</a></li>
-      <li><a href="/video/"     style="background-image:url(http://poohBot.com/images/nav/video.jpg)     ">Video</a></li>
-      <li><a href="/photos/"    style="background-image:url(http://poohBot.com/images/nav/photos.jpg)    ">Photos</a></li>
+      <li><a href="/about/"     style="background-image:url(//poohBot.com/images/nav/about.jpg)     ">About</a></li>
+      <li><a href="/biking/"    style="background-image:url(//poohBot.com/images/nav/biking.jpg)    ">biking</a></li>
+      <li><a href="/favorites/" style="background-image:url(//poohBot.com/images/nav/favorites.jpg) ">favorites</a></li>
+      <li><a href="/quotes/"    style="background-image:url(//poohBot.com/images/nav/quotes.jpg)    ">quotes</a></li>
+      <li><a href="/lapses/"    style="background-image:url(//poohBot.com/images/nav/timelapses.jpg)">Tracey sees through time</a></li>
+      <li><a href="/video/"     style="background-image:url(//poohBot.com/images/nav/video.jpg)     ">Video</a></li>
+      <li><a href="/photos/"    style="background-image:url(//poohBot.com/images/nav/photos.jpg)    ">Photos</a></li>
     </ul>
   </div>
   <?php
@@ -58,7 +58,7 @@ function slide_responsively_template_include($str)
   return $str;
 }
 
-  
+
 add_filter('template_include', 'slide_responsively_template_include', 9); // default to one less than standard plugin priority (10)
 
 
