@@ -10,7 +10,8 @@ This allows you to freely use another WordPress theme entirely ( eg: the nicely 
 Lastly, I changed my plugin to use CSS animations (instead of JS animations like the theme used) for smoother sliding animations
 (since it uses browser core animation and doesn't tie up / succumb to JS interrupts).
 
-You can see it in action at http://poohBot.com
+You can see it in action at 
+[poohBot.com](http://poohBot.com/2015/05/slide-responsively-minimal-standalone-htm-css-js-inspired-by-sliding-door-from-wayne-connor/)
 
 
 INSTALL:
